@@ -2,5 +2,91 @@
     border: 0;
     margin: 0;
     padding: 0;
+    text-decoration: none;   
+    list-style: none;
+}
+
+@media screen and (max-width:767px)
+{   
+    header{
+        background-color: #020202;
+    }
+
+    nav{
+        background-color: #020202 ;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+        align-items: center;
+    }
+
+    .nav-menu{
+        margin-left: 8px;
+    }
+
+    .secciones ul{
+        display: flex;
+        gap: 11px
+    }
+
+    .secciones ul li a img{
+        width: 35px;
+
+    }
+
+    .nav-logo a img{
+        width: 100px;
+    }    
+
+    /*-------------------------------------------------------------------------------Contact*/
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 30px;
+        margin: 10px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .contact-form input{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        transition: all .3s;
+        border-bottom: 2px solid grey;
+    }
+
+    .contact-form button{
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 50px;
+        border: #020202 solid 2px;
+        background-color: #020202;
+        color: white;
+    }
+
+}
+
+
+@media screen and (min-width:767px) and (max-width:1023px)
+{
+    
+}
+
+@media screen and (min-width:1024px)
+{
     
 }
